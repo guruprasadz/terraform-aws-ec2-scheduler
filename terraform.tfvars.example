@@ -1,0 +1,27 @@
+# AWS Configuration
+aws_region = "us-east-1"  # Change to your preferred region (e.g., ap-south-1)
+
+# Instance Configuration
+instance_name = "stock-volatility-analyzer"
+instance_type = "t3.medium"
+root_volume_size = 30
+
+# Ubuntu 22.04 LTS AMI owner (Canonical)
+ami_owner = "099720109477"
+
+# SSH Configuration - REPLACE WITH YOUR IP ADDRESS
+# Get your IP from: curl https://checkip.amazonaws.com
+allowed_ssh_ips = "203.0.113.0/32"  # Replace with your actual IP/32
+
+# AWS Key Pair
+# Create a key pair first: aws ec2 create-key-pair --key-name my-key --region us-east-1
+key_pair_name = "your-key-pair-name"  # Replace with your key pair name
+
+# Environment
+environment = "prod"
+
+# Scheduling
+enable_scheduling = true
+
+# Timezone (for reference)
+timezone = "Asia/Kolkata"

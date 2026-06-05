@@ -1,0 +1,49 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+
+# Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lambda zip files
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# SSH Keys
+*.pem
+!*.pem.example
+
+# IDE specific
+.idea/
+.vscode/
+*.iml
